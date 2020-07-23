@@ -1,16 +1,110 @@
 body{
-  background-color : #EAF6F6;
+	font-family: Monsa;
 }
-hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: gray;
-  border-width: 10px;
-  height: 0px;
-  width: 10%;
+h2{
+	font-size: 4rem;
 }
-h1{
-  color: gray;
-  text-decoration: underline;
-  text-decoration-color: red;
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+#title{
+	background-color: #ff4c68;
+	color: #fff;
+	}
+#testimonials{
+
+	text-align: center;
+	background-color: #ef8172;
+	color: #fff;
+	
+}
+#press{
+	padding-bottom: 6%;
+	text-align: center;
+	background-color: #ef8172;
+}
+#pricing{
+	padding: 100px;
+	text-align: center;
+}
+#cta{
+    background-color: #ef8172;
+    padding: 7% 15%;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    text-decoration-color: beige;
+}
+.heading{
+	font-family: montserrat; 
+	font-size: 4.5rem;
+	line-height: 1.5;
+    font-weight: bold;
+}
+.container-fluid{
+	padding: 3% 15% 20%;
+}
+.navbar{
+	margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+.navbar-brand{
+	font-weight: bold;
+}
+.download{
+	padding: 5% 10%;
+}
+.feature-title{
+    font-family: montserrat;
+	font-weight: bold;
+	font-size: 30px
+}
+.titke-img{
+	width: 60%;
+	transform: rotate(25deg);
+    position: absolute;
+    right: 30%
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+.feature-icon{
+	margin-bottom: 1rem;
+	color: #ef8172;	
+}
+.woof{
+	font-size: 3rem;
+}
+.testomenial-img{
+	width: 10%;
+	border-radius: 100%;
+	margin: 40px;
+	
+}
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px; 
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+.pricing-col {
+	padding: 3% 2%;
+	
+}
+.footer-links{
+    margin: 20px 20px;
+}
+@media (max-width: 700px){
+    #title{
+        text-align:center;
+    }
+    .titke-img{
+        position: static;
+        transform: rotate(0deg);
+    }
 }
